@@ -1,0 +1,44 @@
+.outercard{
+    display: flex;
+    /* margin: 15px; */
+    justify-content: space-evenly;
+    /* border: 2px solid black; */
+  
+}
+.card{
+    width: 300px;
+    text-align: center;
+    border: none;
+   
+}
+.card-img-top{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: rgb(251, 186, 65);
+    margin: 0px auto;
+
+}
+.card-title{
+    text-align: center;
+}
+#headline{
+    text-align: center;
+    color: rgb(91, 112, 70);
+}
+/* .MoreMaanof{
+    padding: 30px 0px;
+    background-color: #f9f0d4;
+} */
+.goodtalks{
+    background-color: rgb(251, 186, 65);
+    border: 1px solid black;
+    display: flex;
+    height: 150px;
+    
+    color: white;
+    justify-content:center;
+    align-items: center;
+    margin: 50px 0px;
+    font-size: 18px;
+}

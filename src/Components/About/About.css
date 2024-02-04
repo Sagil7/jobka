@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz@1,6..12&family=Single+Day&display=swap');
+.maincontainer1{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+    flex-wrap: wrap;
+}
+.threecontainer{
+    /* border: 1px solid red; */
+    width: 33%;
+    height: 80vh;
+    
+}
+.threecontainer h2{
+    color: rgb(30, 41, 30);
+    text-align: center;
+}
+.threecontainer p{
+    font-size: 18px;
+    text-align: left;
+    font-weight: 550;
+    font-family: 'Nunito Sans', sans-serif;
+    color: rgb(85, 85, 85);
+
+}
+#piccontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#piccontainer img{
+    height: 80vh;
+    width: 495px;
+    /* border: 12px solid rgb(243, 209, 18); */
+    /* border-image: linear-gradient(90deg, red 50%, transparent 50%) 1;
+    border-image-slice: 1; */
+}
+.threecontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.innercard{
+    margin: 15px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-color: brown;
+    width: 80%;
+    height: 150px;
+    border-radius: 22px ;
+}
+.innercard h4{
+    color: white;
+    text-align: center;
+}
+.innercard p{
+    color: wheat;
+    text-align: center;
+    font-size: 16px;
+}

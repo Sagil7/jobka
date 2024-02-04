@@ -1,0 +1,62 @@
+.carousel-item img{
+    height: 32vw;
+    opacity: 0.8;
+    
+}
+.Covertitle{
+    position: relative;
+    top: -90px;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.3em;
+    line-height: 60px;
+    color: white;
+}
+.crouselbutton{
+    position: absolute;
+    left: 0%;
+    top: 60px;
+     border: none;
+    height: 50px;
+    width: 11%;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: #163020;
+}
+#downcovertitle{
+color: #163020;
+}
+.crousel1{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 350px;
+}
+.btn {
+    padding: 5px 10px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    transition: all 0.8s;
+}
+.red-btn {
+    color: white;
+    background-color: #156eff;  
+    border: none; margin-left: 12px;
+    transition: all 0.7s ease;
+}
+
+.red-btn:hover{
+    color: white;
+    background-color: #3f88ff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 0.7s ease;
+}
+@media (max-width:620px) {
+    .carousel-item img{
+        height: 43vw;
+    }  
+}

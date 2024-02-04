@@ -1,0 +1,42 @@
+.aboutcontentcontainer{
+    margin:30px 0px;
+
+}
+.aboutcontentcontainer h2{
+    text-align: center;
+}
+.contentconatiner{
+    width: 75%;
+    margin: 0px auto;
+
+}
+.contentconatiner p{
+    font-size: 18px;
+}
+.line{
+    border: 1px solid black;
+    height: 1px;
+    width: 40%;
+    margin: 0px auto;
+}
+.secondline{
+    border: 1px solid black;
+    height: 1px;
+    width: 20%;
+    margin: 0px auto;
+    margin-top: 6px;
+}
+.cardcontainer{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0px;
+}
+.cardcontainer h3{
+    text-align: center;
+    /* margin: 20px 0px; */
+}
+.rowcontainer{
+    display: flex;
+    justify-content: space-evenly;
+
+}

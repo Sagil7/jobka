@@ -10,7 +10,7 @@ import client6 from './client6.png'
 function Clientcrouselcard() {
   return (
     <div className='Our_Client'>
-    <h2 id='Our_Client'>Our Reputed Clients</h2>
+    <h3 id='Our_Client'>Our Reputed Clients</h3>
   <div class="slider">
     
 <div class="slide-track-1">

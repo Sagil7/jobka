@@ -6,7 +6,7 @@
     text-align: center;
 }
 .contentconatiner{
-    width: 75%;
+    width: 90%;
     margin: 0px auto;
 
 }
@@ -14,13 +14,13 @@
     font-size: 18px;
 }
 .line{
-    border: 1px solid black;
+    border: 1px solid rgb(255, 46, 46);
     height: 1px;
-    width: 40%;
+    width: 60%;
     margin: 0px auto;
 }
 .secondline{
-    border: 1px solid black;
+    border: 1px solid rgb(32, 149, 116);
     height: 1px;
     width: 20%;
     margin: 0px auto;
@@ -39,4 +39,10 @@
     display: flex;
     justify-content: space-evenly;
 
+}
+@media (max-width:850px) {
+    .contentconatiner{
+        width: 90%;
+    
+    }
 }

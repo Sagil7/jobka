@@ -40,3 +40,15 @@
     justify-content: space-evenly;
 
 }
+@media (max-width:850px) {
+    .contentconatiner{
+        width: 90%;
+    
+    }
+    .rowcontainer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+}

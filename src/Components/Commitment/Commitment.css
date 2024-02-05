@@ -15,7 +15,7 @@
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    background-color: rgb(251, 186, 65);
+    background-color: #9BA4B4;
     margin: 0px auto;
 
 }
@@ -24,15 +24,15 @@
 }
 #headline{
     text-align: center;
-    color: rgb(91, 112, 70);
+    color: black;
 }
 /* .MoreMaanof{
     padding: 30px 0px;
     background-color: #f9f0d4;
 } */
 .goodtalks{
-    background-color: rgb(251, 186, 65);
-    border: 1px solid black;
+    background-color: #394867;
+    /* border: 1px solid black; */
     display: flex;
     height: 150px;
     
@@ -41,4 +41,17 @@
     align-items: center;
     margin: 50px 0px;
     font-size: 18px;
+}
+@media (max-width:750px) {
+    .outercard{
+   flex-direction: column;   
+   justify-content: center;     
+   align-items: center;   
+
+    }
+    .goodtalks{
+      
+        font-size: 12px;
+    }
+    
 }

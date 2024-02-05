@@ -17,8 +17,8 @@ const Crousel = () => {
           <div className="carousel-item active">
             <img src={crousel1img} className="d-block w-100" data-bs-interval="4000" alt="..." />
             <div className="carousel-caption d-none d-md-block crousel1" >
-              <h1 className='Covertitle' >Unlocking Capabilities</h1>
-              <h1 className='Covertitle' id='downcovertitle' >Elevating Successl.</h1>
+              <h1 className='Covertitle' >Unifying Endeavors </h1>
+              <h1 className='Covertitle' id='downcovertitle' >Fortifying Workforce .</h1>
               <Link to="/about"> <button className='crouselbutton' >About Us</button></Link>
              
             </div>
@@ -26,16 +26,16 @@ const Crousel = () => {
           <div className="carousel-item">
             <img src={crousel2img} className="d-block w-100" data-bs-interval="4000" alt="..." />
             <div className="carousel-caption d-none d-md-block crousel1">
-              <h1 className='Covertitle' >Synergizing Efforts</h1>
-              <h1 className='Covertitle' id='downcovertitle' >Strengthening Workforce.</h1>
+              <h1 className='Covertitle' >Tapping into Capabilities </h1>
+              <h1 className='Covertitle' id='downcovertitle' > Soaring to Success.</h1>
               <Link to="/services"> <button className='crouselbutton' >Our Services</button></Link>
             </div>
           </div>
           <div className="carousel-item">
             <img src={crousel3img} className="d-block w-100" data-bs-interval="4000" alt="..." />
             <div className="carousel-caption d-none d-md-block crousel1">
-              <h1 className='Covertitle' >Synergizing Efforts</h1>
-              <h1 className='Covertitle' id='downcovertitle' >Strengthening Workforce.</h1>
+              <h1 className='Covertitle' >Driving Growth with  </h1>
+              <h1 className='Covertitle' id='downcovertitle' >Dynamic Talent Management .</h1>
               <Link to="/services"> <button className='crouselbutton' >Our Services</button></Link>
             </div>
           </div>

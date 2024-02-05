@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useEffect,useRef } from "react";
 import { NavLink } from 'react-router-dom';
-import logo1 from './logo.png'
+import logo1 from './logo.jpg'
 
 import './Navbar.css'
 function Navbar() {
